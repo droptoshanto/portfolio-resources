@@ -231,20 +231,32 @@ nav ul {
     /* margin-top: 50px; */
 }
 
-.footer-content{
-    margin-top: 50px;
-}
-
 
 .flex-footer {
     display: flex;
-    justify-content: center;
     gap: 150px;
     margin-top: 50px;
+    padding: 100px 350px;
+}
+
+.footer-content {
+    width: 50%;
 }
 
 
-.form [type="text"], [type="email"], .form textarea{
+.form [type="text"],
+[type="email"] {
+    height: 65px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 24px;
+    font-size: 17px;
+}
+
+.form textarea {
     border-radius: 5px;
     border: none;
     display: block;
