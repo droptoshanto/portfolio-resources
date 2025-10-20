@@ -1,7 +1,3 @@
-*{
-    margin: 0px;
-
-}
 .open-sans {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -21,8 +17,27 @@
     font-size: 20PX;
     font-weight: bold;
     color: white;
-    padding: 15px;
+    padding: 18px 35px;
     cursor: pointer;
+}
+
+.btn-2 {
+    box-sizing: border-box;
+    border: 1px solid rgba(253, 110, 10, 1);
+    border-radius: 5px;
+    background-color: white;
+    color: rgba(253, 110, 10, 1);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+    cursor: pointer;
+}
+
+.header {
+
+    background-image: url(images/developer.png), url(images/header_bg.png), linear-gradient(to bottom, rgba(255, 248, 243, 1), rgba(255, 248, 243, 1));
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 
 }
 
@@ -30,7 +45,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px;
+    margin: 0px 200px;
 }
 
 .nav-title {
@@ -52,4 +67,114 @@ nav ul a {
 nav ul {
     display: flex;
     align-items: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content {
+    margin-top: -200px;
+}
+
+.banner-content h4 {
+    color: rgba(71, 71, 71, 1);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: -50px;
+}
+
+.banner-content h1 {
+    color: rgba(24, 24, 24, 1);
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.banner-content p {
+    color: rgba(117, 117, 117, 1);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner-content button {
+    margin-top: 20px;
+}
+
+.banner-content .btn-2 {
+    margin-left: 20px;
+}
+
+.fa-solid {
+    margin-right: 15px;
+}
+
+.about-me {
+    max-width: 1140px;
+    border-radius: 10px;
+    background: rgba(255, 248, 243, 1);
+    margin: 0 auto;
+    padding: 130px 150px;
+    margin-top: 130px;
+}
+
+.about-me-text {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 1);
+    padding: 30px;
+
+}
+
+.section-title {
+    color: rgba(24, 24, 24, 1);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+
+}
+
+.address .description {
+    color: rgb(109, 108, 108);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.address p {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.what-i-do {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    gap: 15px;
+    margin-top: 60px;
+}
+
+.skills-card {
+    max-height: 521px;
+    max-width: 267px;
+    box-shadow: black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 2px 2px #474747;
+    padding: 10px;
+    text-align: left;
 }
