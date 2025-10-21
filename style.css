@@ -265,3 +265,13 @@ nav ul {
     margin-bottom: 24px;
     font-size: 17px;
 }
+
+.icon{
+    display: flex;
+    gap: 25px;
+}
+
+.icon a img{
+    height: 50px;
+    width: 50px;
+}
